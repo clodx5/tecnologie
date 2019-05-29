@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+        <title>Noleggio</title>
+
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+	</head>
+	<body>
+	
+        <div class="container">
+            <header>
+                <div class="row">
+                    <h1>Noleggio | Monopattini Elettrici</h1>
+                </div>
+            </header>
+            
+            <div class="col-md-4 form-group">  
+                <form action="registrazione" method="get">
+                    <label>Nome </label><input name="nome" type="text" class="form-control">
+                    <label>Cognome </label><input name="cognome" type="text" class="form-control">
+                    <label>Data di nascita </label><input name="dataN" type="text" class="form-control">
+                    <label>Codice fiscale </label><input name="cf" type="text" class="form-control">
+                    <label>Sesso </label>
+                    <div class="radio">
+                        <label><input name="sesso" value="M" type="radio">M</label>  
+                        <label><input name="sesso" value="F" type="radio">F</label>
+                    </div>
+                    <label>Username </label><input name="user" type="text" class="form-control">
+                    <label>Password </label><input name="pw" type="password" class="form-control">
+                    <br>
+                    <input type="submit" value="Entra" class="btn btn-primary" style="background-color:orange; border-color:orange; float:right;">
+                </form>
+                 <form action="login.html" method="get">
+                    <input type="submit" value="Vai a login" class="btn btn-primary" style="background-color:white; border-color:orange; color:orange;">
+                </form>
+            </div>
+           
+        </div>
+
+	</body>
+</html>
